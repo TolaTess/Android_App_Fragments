@@ -22,6 +22,6 @@
         android:layout_centerHorizontal="true"
         tools:layout="@layout/bottom_fragment"
         android:layout_height="270dp"
-        android:layout_width="320dp" />
+        android:layout_width="270dp" />
 </RelativeLayout>
 You are a Fragment
