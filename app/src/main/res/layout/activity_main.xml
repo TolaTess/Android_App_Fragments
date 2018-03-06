@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tolaotesanya.fragments.MainActivity">
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.tolaotesanya.fragments.TopFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/top_fragment" />
+
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.example.tolaotesanya.fragments.PictureFragment"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/bottom_fragment"
+        android:layout_height="270dp"
+        android:layout_width="320dp" />
+</RelativeLayout>
+You are a Fragment
